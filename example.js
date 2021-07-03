@@ -24,7 +24,7 @@ function mani() {
 }
 mani();
 function getPosts(id) {
-  fetch(`http://jsonplaceholder.typicode.com/posts?userId=${id}`)
+  fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
     .then((response) => response.json())
     .then((json) => {
       const content = json
