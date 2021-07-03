@@ -1,7 +1,16 @@
-#user{
+#app{
     background-color: bisque;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-bottom-right-radius:100%;
-    border-top-left-radius: 100%;
+    border-bottom-right-radius:20%;
+    /* border-top-left-radius: 50%; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
+
+.posts {
+    width: 50%;
+}
+
+
